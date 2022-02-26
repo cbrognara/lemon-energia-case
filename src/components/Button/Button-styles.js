@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 export const Content = styled.button`
   color: ${props => theme[props.color].text};
-  width: 30rem;
+  min-width: 31rem;
+  width: ${props => (props.width ? props.width : '100%')};
   height: 5.6rem;
   cursor: pointer;
   line-height: 2.4rem;
@@ -25,6 +26,7 @@ export const Content = styled.button`
   &:disabled {
     background: ${props => theme[props.color].disabled};
     color: #ffffff;
+    cursor: not-allowed;
   }
 `
 

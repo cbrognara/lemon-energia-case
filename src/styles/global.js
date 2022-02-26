@@ -24,7 +24,7 @@ font-size: 10px;
     box-sizing: border-box;
   }
 
-  h1, h2, h3, h4, h5, h6, a, li, button {
+  h1, h2, h3, h4, h5, h6, a, li, button, p {
     font-family: 'Inter', sans-serif;
   }
 
@@ -39,5 +39,10 @@ font-size: 10px;
 
   button {
     border: none;
+  }
+
+  p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
   }
 `
