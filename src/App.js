@@ -4,7 +4,9 @@ import { GlobalStyle } from './styles/global'
 function App() {
   return (
     <div className="buttons">
-      <Button>Text</Button>
+      <Button icon="refresh" color="secondary">
+        Text
+      </Button>
       <GlobalStyle />
     </div>
   )

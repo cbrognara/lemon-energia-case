@@ -7,13 +7,15 @@ font-size: 10px;
 
 --primary: #026C00;
 --primary-hover: #079504;
---primary-disable: #B7D0B6;
+--primary-disabled: #B7D0B6;
 --primary-pressed: #013C00;
+--primary-text: #ffffff;
 
 --secondary: #F7C346;
 --secondary-hover: #FFDF77;
---secondary-disable: #FFE58D;
+--secondary-disabled: #FFE58D;
 --secondary-pressed: #DCAC0D;
+--secondary-text: #000000;
   }
 
   * {
